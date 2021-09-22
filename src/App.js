@@ -15,7 +15,7 @@ const App = () => {
       fetchUrl={requests.fetchNetflixOriginals}
       isLargeRow>
       </Row>
-      <Row
+      {/* <Row
       title= "Trending Now"
       fetchUrl={requests.fetchTrending}>
       </Row>
@@ -42,7 +42,7 @@ const App = () => {
       <Row
       title= "Documentaries"
       fetchUrl={requests.fetchDocumentaries}>
-      </Row>
+      </Row> */}
     </div>
   )
 }

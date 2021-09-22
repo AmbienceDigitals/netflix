@@ -6,6 +6,7 @@ const Nav = () => {
 
     // using useEffect to add or remove scroll listener
     useEffect(() => {
+        // adding a scroll event
         window.addEventListener("scroll", () => {
             if (window.scrollY > 100) {
                 setShow(true);
